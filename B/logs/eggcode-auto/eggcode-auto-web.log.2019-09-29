@@ -1,0 +1,54 @@
+2019-09-29 11:18:18,577 ERROR 17772 [-/192.168.17.149/-/6ms POST /database/uploadfile] nodejs.ReferenceError: ctx is not defined
+    at databaseController.uploadfile (D:\AllCode\svntest\app\controller\database.js:64:13)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17772
+hostname: SC-201804270139
+
+2019-09-29 18:04:25,116 ERROR 9696 [-/192.168.17.149/-/13ms GET /database/getFinallyFile] nodejs.TypeError: Cannot destructure property `controller` of 'undefined' or 'null'.
+    at databaseController.makefile (D:\AllCode\svntest\app\controller\database.js:48:25)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9696
+hostname: SC-201804270139
+

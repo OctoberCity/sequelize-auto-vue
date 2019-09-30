@@ -1,0 +1,15 @@
+2019-09-22 12:36:03,903 ERROR 13464 [-/::1/-/13ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (d:\AllCode\code-auto\server\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (d:\AllCode\code-auto\server\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (d:\AllCode\code-auto\server\node_modules\egg-security\app\extend\context.js:87:33)
+    at Object.ensureCsrfSecret (d:\AllCode\code-auto\server\node_modules\egg-security\app\extend\context.js:98:13)
+    at csrf (d:\AllCode\code-auto\server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (d:\AllCode\code-auto\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at d:\AllCode\code-auto\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (d:\AllCode\code-auto\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (d:\AllCode\code-auto\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (d:\AllCode\code-auto\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13464
+hostname: SC-201804270139
+

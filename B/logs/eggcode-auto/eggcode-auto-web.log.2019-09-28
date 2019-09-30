@@ -1,0 +1,376 @@
+2019-09-24 15:19:04,844 ERROR 16068 [-/127.0.0.1/-/13ms GET /] nodejs.TypeError: xlsx.parse is not a function
+    at HomeController.index (d:\AllCode\svntest\app\controller\home.js:7:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (d:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (d:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (d:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at d:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at d:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+
+pid: 16068
+hostname: SC-201804270139
+
+2019-09-24 15:20:17,586 ERROR 14756 [-/127.0.0.1/-/11ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open '../../1.xls'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at read_binary (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:2628:44)
+    at readSync (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:20381:69)
+    at Object.readFileSync (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:20409:9)
+    at Object.parse (d:\AllCode\svntest\node_modules\node-xlsx\lib\index.js:31:86)
+    at HomeController.index (d:\AllCode\svntest\app\controller\home.js:7:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (d:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "../../1.xls"
+name: "ENOENTError"
+pid: 14756
+hostname: SC-201804270139
+
+2019-09-24 15:20:36,848 ERROR 464 [-/127.0.0.1/-/11ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open '../1.xls'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at read_binary (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:2628:44)
+    at readSync (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:20381:69)
+    at Object.readFileSync (d:\AllCode\svntest\node_modules\xlsx\xlsx.js:20409:9)
+    at Object.parse (d:\AllCode\svntest\node_modules\node-xlsx\lib\index.js:31:86)
+    at HomeController.index (d:\AllCode\svntest\app\controller\home.js:7:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (d:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "../1.xls"
+name: "ENOENTError"
+pid: 464
+hostname: SC-201804270139
+
+2019-09-24 15:21:28,724 ERROR 15736 [-/127.0.0.1/-/233ms GET /] nodejs.ReferenceError: obj is not defined
+    at HomeController.index (d:\AllCode\svntest\app\controller\home.js:7:13)
+    at Object.callFn (d:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (d:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (d:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (d:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at d:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at d:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+
+pid: 15736
+hostname: SC-201804270139
+
+2019-09-24 15:21:52,131 ERROR 7332 [-/127.0.0.1/-/235ms GET /] nodejs.ReferenceError: obj is not defined
+    at HomeController.index (d:\AllCode\svntest\app\controller\home.js:7:13)
+    at Object.callFn (d:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (d:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (d:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (d:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at d:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (d:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at d:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+
+pid: 7332
+hostname: SC-201804270139
+
+2019-09-28 15:55:08,395 ERROR 8304 [-/192.168.17.149/-/1630ms GET /database/find] nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Promise.tap.then.catch.err (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19)
+From previous event:
+    at ConnectionManager.connect (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:120:13)
+    at sequelize.runHooks.then (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:311:50)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at ConnectionManager._connect (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:311:8)
+    at ConnectionManager.getConnection (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:46)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:53)
+    at D:\AllCode\svntest\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\AllCode\svntest\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:30)
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:10:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:15:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+From previous event:
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:10:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:15:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8304
+hostname: SC-201804270139
+
+2019-09-28 15:55:16,148 ERROR 8304 [-/192.168.17.149/-/1164ms GET /database/find] nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at Promise.tap.then.catch.err (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19)
+From previous event:
+    at ConnectionManager.connect (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:120:13)
+    at sequelize.runHooks.then (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:311:50)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at ConnectionManager._connect (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:311:8)
+    at ConnectionManager.getConnection (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:247:46)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:53)
+    at D:\AllCode\svntest\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\AllCode\svntest\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:30)
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:10:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:15:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+From previous event:
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:10:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:15:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8304
+hostname: SC-201804270139
+
+2019-09-28 15:57:34,693 ERROR 7452 [-/192.168.17.149/-/15ms GET /database/find] nodejs.TypeError: Assignment to constant variable.
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:11:16)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7452
+hostname: SC-201804270139
+
+2019-09-28 16:13:49,564 ERROR 6984 [-/192.168.17.149/-/793ms GET /database/find] nodejs.SequelizeDatabaseError: Unknown column 'undefined' in 'where clause'
+    at Query.formatError (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (D:\AllCode\svntest\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:70:12)
+    at PacketParser.executeStart (D:\AllCode\svntest\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:77:25)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then.then (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:645:12)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at Promise.resolve.retry (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:641:10)
+    at D:\AllCode\svntest\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\AllCode\svntest\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:13:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:21:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'undefined' in 'where clause'","sql":"select table_name from information_schema.tables where table_schema= undefined"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'undefined' in 'where clause'","sql":"select table_name from information_schema.tables where table_schema= undefined"}
+sql: "select table_name from information_schema.tables where table_schema= undefined"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 6984
+hostname: SC-201804270139
+
+2019-09-28 16:15:17,474 ERROR 13320 [-/192.168.17.149/-/528ms GET /database/find] nodejs.SequelizeDatabaseError: Unknown column 'keyan' in 'where clause'
+    at Query.formatError (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (D:\AllCode\svntest\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:70:12)
+    at PacketParser.executeStart (D:\AllCode\svntest\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\AllCode\svntest\node_modules\mysql2\lib\connection.js:77:25)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (D:\AllCode\svntest\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then.then (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:645:12)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at Promise.resolve.retry (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:641:10)
+    at D:\AllCode\svntest\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\AllCode\svntest\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (D:\AllCode\svntest\node_modules\sequelize\lib\sequelize.js:580:23)
+    at databaseService.find (D:\AllCode\svntest\app\service\database.js:12:45)
+    at databaseController.index (D:\AllCode\svntest\app\controller\database.js:21:53)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'keyan' in 'where clause'","sql":"select table_name from information_schema.tables where table_schema= keyan"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'keyan' in 'where clause'","sql":"select table_name from information_schema.tables where table_schema= keyan"}
+sql: "select table_name from information_schema.tables where table_schema= keyan"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13320
+hostname: SC-201804270139
+
