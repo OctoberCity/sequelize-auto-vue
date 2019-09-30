@@ -1,0 +1,546 @@
+2019-09-29 11:00:44,360 ERROR 13888 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13888
+hostname: SC-201804270139
+
+2019-09-29 11:18:18,575 ERROR 17772 [-/192.168.17.149/-/6ms POST /database/uploadfile] nodejs.ReferenceError: ctx is not defined
+    at databaseController.uploadfile (D:\AllCode\svntest\app\controller\database.js:64:13)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17772
+hostname: SC-201804270139
+
+2019-09-29 11:28:10,624 ERROR 12904 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12904
+hostname: SC-201804270139
+
+2019-09-29 13:54:25,133 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:30,002 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:35,034 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:39,880 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:45,484 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:51,251 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:54:57,554 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:04,632 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:05,481 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:10,235 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:12,157 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:12,696 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:16,277 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:16,298 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:20,844 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:23,233 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:23,533 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:25,409 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:29,316 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:29,624 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:32,187 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:34,227 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:35,331 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:39,145 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:46,208 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:47,630 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:51,715 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:52,811 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:53,480 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:57,158 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:55:58,280 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:02,695 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:02,830 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:07,882 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:12,708 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:18,042 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:22,728 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:56:22,750 ERROR 18340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18340
+hostname: SC-201804270139
+
+2019-09-29 13:58:49,002 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:58:53,641 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:58:58,670 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:03,384 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:08,231 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:13,394 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:18,222 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:23,458 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:29,105 ERROR 10816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 13:59:32,048 ERROR 10816 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'D:\AllCode\svntest\app.js'
+    at Object.statSync (fs.js:824:3)
+    at DevelopmentEventSource._onFsWatchChange (D:\AllCode\svntest\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:182:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:128:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "D:\\AllCode\\svntest\\app.js"
+name: "unhandledExceptionError"
+pid: 10816
+hostname: SC-201804270139
+
+2019-09-29 15:13:26,883 ERROR 18280 nodejs.EBUSYError: EBUSY: resource busy or locked, scandir 'D:\pagefile.sys' (uncaughtException throw 1 times on pid:18280)
+EBUSYError: EBUSY: resource busy or locked, scandir 'D:\pagefile.sys' (uncaughtException throw 1 times on pid:18280)
+errno: -4082
+code: "EBUSY"
+syscall: "scandir"
+path: "D:\\pagefile.sys"
+name: "EBUSYError"
+pid: 18280
+hostname: SC-201804270139
+
+2019-09-29 15:13:26,934 ERROR 18280 nodejs.EPERMError: EPERM: operation not permitted, scandir 'D:\System Volume Information' (uncaughtException throw 2 times on pid:18280)
+EPERMError: EPERM: operation not permitted, scandir 'D:\System Volume Information' (uncaughtException throw 2 times on pid:18280)
+errno: -4048
+code: "EPERM"
+syscall: "scandir"
+path: "D:\\System Volume Information"
+name: "EPERMError"
+pid: 18280
+hostname: SC-201804270139
+
+2019-09-29 16:58:07,091 ERROR 424 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 424
+hostname: SC-201804270139
+
+2019-09-29 17:39:18,908 ERROR 424 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:659:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 424
+hostname: SC-201804270139
+
+2019-09-29 18:04:25,114 ERROR 9696 [-/192.168.17.149/-/13ms GET /database/getFinallyFile] nodejs.TypeError: Cannot destructure property `controller` of 'undefined' or 'null'.
+    at databaseController.makefile (D:\AllCode\svntest\app\controller\database.js:48:25)
+    at Object.callFn (D:\AllCode\svntest\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\AllCode\svntest\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\AllCode\svntest\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\AllCode\svntest\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at next (D:\AllCode\svntest\node_modules\koa-compose\index.js:45:18)
+    at D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\AllCode\svntest\node_modules\koa-compose\index.js:44:32)
+    at D:\AllCode\svntest\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\svntest\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\AllCode\svntest\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\svntest\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\svntest\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\AllCode\svntest\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\AllCode\svntest\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9696
+hostname: SC-201804270139
+
