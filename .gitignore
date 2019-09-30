@@ -1,5 +1,5 @@
-/node_modules/
-/logs/
-/run/
+node_modules/
+logs/
+run/
 .eslint*
-/dist/
+dist/
