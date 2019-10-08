@@ -11,7 +11,7 @@ module.exports = (app) => {
         },
         cors: {
             credentials: true,
-            origin: 'http://127.0.0.1:8080',
+            origin: '*',//'http://127.0.0.1:8080',
             allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
         },
         // 阿里node性能平台
