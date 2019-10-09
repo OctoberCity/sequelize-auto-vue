@@ -4,12 +4,13 @@
 
 
 #### 前端，后端启动
-cd  B(后端)
-npm i  
-npm run dev
+cd  B(后端)   
+npm i   
+npm run dev  
 
-cd F(前端)
-npm i
+
+cd F(前端)  
+npm i  
 npm run dev 
 
 
@@ -18,8 +19,8 @@ npm run dev
 
 #### docker-compose启动
 
-docker-compose build
-docker-compose up 
+docker-compose build  
+docker-compose up   
 浏览器访问 http://ip:ports
 
 
