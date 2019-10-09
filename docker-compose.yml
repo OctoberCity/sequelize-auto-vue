@@ -1,0 +1,14 @@
+version;'0.0.1'
+services:
+    web:
+       build: .
+       command: npm run dev
+       restart: always
+       ports:
+         - : "7001:7001"
+    
+    f:
+      image: docker.io/nginx:latest
+      restart: always
+      volumes: 
+         - : ""         
